@@ -19,34 +19,42 @@ overwritten on the next sync.
 
 ## 📊 LeetCode Progress
 
-**Total solved: 5**
+**Total solved: 18**
 
-`[------------------------]` 5/300
+`[#-----------------------]` 18/300
 
 | Difficulty | Count |
 |---|---|
-| Easy | 4 |
-| Medium | 1 |
-| Hard | 0 |
+| Easy | 10 |
+| Medium | 7 |
+| Hard | 1 |
 
 ### Topics
 
 | Topic | Solved |
 |---|---|
-| array | 4 |
-| hash-table | 2 |
-| math | 2 |
-| two-pointers | 1 |
-| binary-search | 1 |
-| bit-manipulation | 1 |
-| sorting | 1 |
+| array | 8 |
+| math | 7 |
+| string | 6 |
+| hash-table | 5 |
+| two-pointers | 3 |
+| matrix | 2 |
+| simulation | 2 |
+| binary-search | 2 |
+| bit-manipulation | 2 |
+| sorting | 2 |
+| dynamic-programming | 1 |
+| stack | 1 |
+| monotonic-stack | 1 |
 | database | 1 |
+| sliding-window | 1 |
+| recursion | 1 |
 
 ### Languages
 
 | Language | Solved |
 |---|---|
-| C++ | 4 |
+| C++ | 17 |
 | mysql | 1 |
 
 ### Recently Solved
@@ -56,19 +64,31 @@ overwritten on the next sync.
 - [26. Remove Duplicates from Sorted Array](solutions/array/0026-remove-duplicates-from-sorted-array) — Easy — 2026-08-04
 - [66. Plus One](solutions/array/0066-plus-one) — Easy — 2026-08-04
 - [268. Missing Number](solutions/array/0268-missing-number) — Easy — 2026-08-04
+- [3. Longest Substring Without Repeating Characters](solutions/hash-table/0003-longest-substring-without-repeating-characters) — Medium — 2025-01-17
+- [13. Roman to Integer](solutions/hash-table/0013-roman-to-integer) — Easy — 2025-01-16
+- [415. Add Strings](solutions/math/0415-add-strings) — Easy — 2025-01-15
+- [2785. Sort Vowels in a String](solutions/string/2785-sort-vowels-in-a-string) — Medium — 2025-01-15
+- [1832. Check if the Sentence Is Pangram](solutions/hash-table/1832-check-if-the-sentence-is-pangram) — Easy — 2025-01-14
 
 ### Least-Practiced Patterns
 
+- recursion (1)
+- sliding-window (1)
 - database (1)
-- sorting (1)
-- bit-manipulation (1)
-- binary-search (1)
-- two-pointers (1)
+- monotonic-stack (1)
+- stack (1)
 
 ### Candidates for Revision (oldest Medium/Hard)
 
+- [167. Two Sum II - Input Array Is Sorted](solutions/array/0167-two-sum-ii-input-array-is-sorted) — Medium — solved 2025-01-01
+- [42. Trapping Rain Water](solutions/array/0042-trapping-rain-water) — Hard — solved 2025-01-03
+- [50. Pow(x, n)](solutions/math/0050-powx-n) — Medium — solved 2025-01-05
+- [54. Spiral Matrix](solutions/array/0054-spiral-matrix) — Medium — solved 2025-01-07
+- [48. Rotate Image](solutions/array/0048-rotate-image) — Medium — solved 2025-01-08
+- [2785. Sort Vowels in a String](solutions/string/2785-sort-vowels-in-a-string) — Medium — solved 2025-01-15
+- [3. Longest Substring Without Repeating Characters](solutions/hash-table/0003-longest-substring-without-repeating-characters) — Medium — solved 2025-01-17
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — solved 2026-08-31
 
-_Last updated: 2026-09-23 18:41 UTC_
+_Last updated: 2026-09-23 19:27 UTC_
 
 <!-- DASHBOARD:END -->
