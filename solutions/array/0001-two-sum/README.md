@@ -4,10 +4,10 @@ title: Two Sum
 difficulty: Easy
 url: https://leetcode.com/problems/two-sum/
 pattern:
-  - array
-  - hash-table
-language: Python3
-date_solved: '2026-09-22'
+- array
+- hash-table
+language: C++
+date_solved: '2026-08-04'
 needs_revision: false
 ---
 
@@ -16,21 +16,19 @@ needs_revision: false
 * LeetCode: #1
 * Difficulty: Easy
 * Pattern: array, hash-table
-* Language: Python3
-* Solved: 2026-09-22
+* Language: C++
+* Solved: 2026-08-04
 * URL: https://leetcode.com/problems/two-sum/
 
 ## Approach
 
-Use a hash map to store each number's index as we scan the array. For every
-element, check whether its complement (target - num) has already been seen.
-If it has, we've found our pair in a single pass.
+_Add a short explanation of your approach here._
 
 ## Complexity
 
-* Time: O(n)
-* Space: O(n)
+* Time: _fill in_
+* Space: _fill in_
 
 ## Solution
 
-See [`solution.py`](./solution.py).
+See [`solution.cpp`](./solution.cpp).
