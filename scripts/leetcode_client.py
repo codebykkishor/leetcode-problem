@@ -234,3 +234,59 @@ class LeetCodeClient:
                 "The session cookie may be expired or the submission is not yours."
             )
         return details["code"]
+
+    def get_all_accepted_submissions(self, limit: int = 100) -> list[Submission]:
+        """
+        Returns accepted submissions from the authenticated user's history.
+        """
+        query = """
+        query submissionList(
+          $offset: Int!
+          $limit: Int!
+          $lastKey: String
+        ) {
+          submissionList(
+            offset: $offset
+            limit: $limit
+            lastKey: $lastKey
+          ) {
+            lastKey
+            hasNext
+            submissions {
+              id
+              statusDisplay
+              lang
+              timestamp
+              title
+              titleSlug
+            }
+          }
+        }
+        """
+
+        data = self._post(
+            {
+                "query": query,
+                "variables": {
+                    "offset": 0,
+                    "limit": limit,
+                    "lastKey": None,
+                },
+            },
+            authenticated=True,
+        )
+
+        result = data.get("data", {}).get("submissionList") or {}
+        items = result.get("submissions") or []
+
+        return [
+            Submission(
+                submission_id=str(item["id"]),
+                title=item.get("title", ""),
+                title_slug=item.get("titleSlug", ""),
+                timestamp=int(item["timestamp"]),
+                lang=item.get("lang", "unknown"),
+            )
+            for item in items
+            if item.get("statusDisplay") == "Accepted"
+        ]
