@@ -19,38 +19,56 @@ overwritten on the next sync.
 
 ## 📊 LeetCode Progress
 
-**Total solved: 1**
+**Total solved: 5**
 
-`[------------------------]` 1/300
+`[------------------------]` 5/300
 
 | Difficulty | Count |
 |---|---|
-| Easy | 1 |
-| Medium | 0 |
+| Easy | 4 |
+| Medium | 1 |
 | Hard | 0 |
 
 ### Topics
 
 | Topic | Solved |
 |---|---|
-| array | 1 |
-| hash-table | 1 |
+| array | 4 |
+| hash-table | 2 |
+| math | 2 |
+| two-pointers | 1 |
+| binary-search | 1 |
+| bit-manipulation | 1 |
+| sorting | 1 |
+| database | 1 |
 
 ### Languages
 
 | Language | Solved |
 |---|---|
-| Python3 | 1 |
+| C++ | 4 |
+| mysql | 1 |
 
 ### Recently Solved
 
-- [1. Two Sum](solutions/array/0001-two-sum) — Easy — 2026-09-22
+- [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — 2026-08-31
+- [1. Two Sum](solutions/array/0001-two-sum) — Easy — 2026-08-04
+- [26. Remove Duplicates from Sorted Array](solutions/array/0026-remove-duplicates-from-sorted-array) — Easy — 2026-08-04
+- [66. Plus One](solutions/array/0066-plus-one) — Easy — 2026-08-04
+- [268. Missing Number](solutions/array/0268-missing-number) — Easy — 2026-08-04
 
 ### Least-Practiced Patterns
 
-- hash-table (1)
-- array (1)
+- database (1)
+- sorting (1)
+- bit-manipulation (1)
+- binary-search (1)
+- two-pointers (1)
 
-_Last updated: 2026-09-22 13:15 UTC_
+### Candidates for Revision (oldest Medium/Hard)
+
+- [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — solved 2026-08-31
+
+_Last updated: 2026-09-23 18:41 UTC_
 
 <!-- DASHBOARD:END -->
