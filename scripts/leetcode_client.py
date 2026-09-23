@@ -305,5 +305,5 @@ class LeetCodeClient:
 
             if not items or not last_key:
                 break
-
+        print(f"DEBUG: fetched {len(submissions)} accepted submissions")
         return submissions
