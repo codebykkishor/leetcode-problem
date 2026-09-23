@@ -305,8 +305,6 @@ class LeetCodeClient:
 
             if not items or not last_key:
                 break
-        print("DEBUG: accepted submissions:")
-        for submission in submissions:
-            print(f"  #{submission.title_slug} - {submission.lang}")
-        print(f"DEBUG: fetched {len(submissions)} accepted submissions")
+        print("DEBUG TITLES:", [s.title for s in submissions])
+        print("DEBUG COUNT:", len(submissions))
         return submissions
