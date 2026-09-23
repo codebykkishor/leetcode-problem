@@ -167,8 +167,8 @@ def main() -> int:
     client = LeetCodeClient(username=username, session_cookie=session_cookie, csrf_token=csrf_token)
 
     try:
-        recent = client.get_recent_accepted_submissions(limit=limit)
-    except LeetCodeAPIError as exc:
+	recent = client.get_all_accepted_submissions(limit=100)
+   	except LeetCodeAPIError as exc:
         logger.error("Failed to fetch recent submissions: %s", exc)
         return 1
 
