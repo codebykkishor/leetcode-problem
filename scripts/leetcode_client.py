@@ -237,7 +237,8 @@ class LeetCodeClient:
 
     def get_all_accepted_submissions(self, limit: int = 100) -> list[Submission]:
         """
-        Returns accepted submissions from the authenticated user's history.
+        Returns accepted submissions from the authenticated user's history,
+        paging through the complete submission list.
         """
         query = """
         query submissionList(
@@ -264,29 +265,45 @@ class LeetCodeClient:
         }
         """
 
-        data = self._post(
-            {
-                "query": query,
-                "variables": {
-                    "offset": 0,
-                    "limit": limit,
-                    "lastKey": None,
+        submissions = []
+        offset = 0
+        last_key = None
+
+        while True:
+            data = self._post(
+                {
+                    "query": query,
+                    "variables": {
+                        "offset": offset,
+                        "limit": limit,
+                        "lastKey": last_key,
+                    },
                 },
-            },
-            authenticated=True,
-        )
-
-        result = data.get("data", {}).get("submissionList") or {}
-        items = result.get("submissions") or []
-
-        return [
-            Submission(
-                submission_id=str(item["id"]),
-                title=item.get("title", ""),
-                title_slug=item.get("titleSlug", ""),
-                timestamp=int(item["timestamp"]),
-                lang=item.get("lang", "unknown"),
+                authenticated=True,
             )
-            for item in items
-            if item.get("statusDisplay") == "Accepted"
-        ]
+
+            result = data.get("data", {}).get("submissionList") or {}
+            items = result.get("submissions") or []
+
+            for item in items:
+                if item.get("statusDisplay") == "Accepted":
+                    submissions.append(
+                        Submission(
+                            submission_id=str(item["id"]),
+                            title=item.get("title", ""),
+                            title_slug=item.get("titleSlug", ""),
+                            timestamp=int(item["timestamp"]),
+                            lang=item.get("lang", "unknown"),
+                        )
+                    )
+
+            if not result.get("hasNext"):
+                break
+
+            last_key = result.get("lastKey")
+            offset += len(items)
+
+            if not items or not last_key:
+                break
+
+        return submissions
