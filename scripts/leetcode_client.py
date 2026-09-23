@@ -36,6 +36,7 @@ BASE_URL = "https://leetcode.com"
 
 # LeetCode's `lang` submission field -> (file extension, pretty display name)
 LANGUAGE_MAP = {
+    "mysql": (".sql", "MySQL"),
     "python3": (".py", "Python3"),
     "python": (".py", "Python"),
     "java": (".java", "Java"),
