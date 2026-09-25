@@ -19,13 +19,13 @@ overwritten on the next sync.
 
 ## 📊 LeetCode Progress
 
-**Total solved: 18**
+**Total solved: 19**
 
-`[#-----------------------]` 18/300
+`[##----------------------]` 19/300
 
 | Difficulty | Count |
 |---|---|
-| Easy | 10 |
+| Easy | 11 |
 | Medium | 7 |
 | Hard | 1 |
 
@@ -56,9 +56,11 @@ overwritten on the next sync.
 |---|---|
 | C++ | 17 |
 | mysql | 1 |
+| JavaScript | 1 |
 
 ### Recently Solved
 
+- [2620. Counter](solutions/uncategorized/2620-counter) — Easy — 2026-09-25
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — 2026-08-31
 - [1. Two Sum](solutions/array/0001-two-sum) — Easy — 2026-08-04
 - [26. Remove Duplicates from Sorted Array](solutions/array/0026-remove-duplicates-from-sorted-array) — Easy — 2026-08-04
@@ -68,7 +70,6 @@ overwritten on the next sync.
 - [13. Roman to Integer](solutions/hash-table/0013-roman-to-integer) — Easy — 2025-01-16
 - [415. Add Strings](solutions/math/0415-add-strings) — Easy — 2025-01-15
 - [2785. Sort Vowels in a String](solutions/string/2785-sort-vowels-in-a-string) — Medium — 2025-01-15
-- [1832. Check if the Sentence Is Pangram](solutions/hash-table/1832-check-if-the-sentence-is-pangram) — Easy — 2025-01-14
 
 ### Least-Practiced Patterns
 
@@ -89,6 +90,6 @@ overwritten on the next sync.
 - [3. Longest Substring Without Repeating Characters](solutions/hash-table/0003-longest-substring-without-repeating-characters) — Medium — solved 2025-01-17
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — solved 2026-08-31
 
-_Last updated: 2026-09-23 19:27 UTC_
+_Last updated: 2026-09-25 21:42 UTC_
 
 <!-- DASHBOARD:END -->
