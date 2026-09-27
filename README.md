@@ -19,13 +19,13 @@ overwritten on the next sync.
 
 ## 📊 LeetCode Progress
 
-**Total solved: 20**
+**Total solved: 21**
 
-`[##----------------------]` 20/300
+`[##----------------------]` 21/300
 
 | Difficulty | Count |
 |---|---|
-| Easy | 12 |
+| Easy | 13 |
 | Medium | 7 |
 | Hard | 1 |
 
@@ -55,11 +55,12 @@ overwritten on the next sync.
 | Language | Solved |
 |---|---|
 | C++ | 18 |
+| JavaScript | 2 |
 | mysql | 1 |
-| JavaScript | 1 |
 
 ### Recently Solved
 
+- [2621. Sleep](solutions/uncategorized/2621-sleep) — Easy — 2026-09-27
 - [121. Best Time to Buy and Sell Stock](solutions/array/0121-best-time-to-buy-and-sell-stock) — Easy — 2026-09-26
 - [2620. Counter](solutions/uncategorized/2620-counter) — Easy — 2026-09-25
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — 2026-08-31
@@ -69,7 +70,6 @@ overwritten on the next sync.
 - [268. Missing Number](solutions/array/0268-missing-number) — Easy — 2026-08-04
 - [3. Longest Substring Without Repeating Characters](solutions/hash-table/0003-longest-substring-without-repeating-characters) — Medium — 2025-01-17
 - [13. Roman to Integer](solutions/hash-table/0013-roman-to-integer) — Easy — 2025-01-16
-- [415. Add Strings](solutions/math/0415-add-strings) — Easy — 2025-01-15
 
 ### Least-Practiced Patterns
 
@@ -90,6 +90,6 @@ overwritten on the next sync.
 - [3. Longest Substring Without Repeating Characters](solutions/hash-table/0003-longest-substring-without-repeating-characters) — Medium — solved 2025-01-17
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — solved 2026-08-31
 
-_Last updated: 2026-09-26 21:19 UTC_
+_Last updated: 2026-09-27 21:29 UTC_
 
 <!-- DASHBOARD:END -->
