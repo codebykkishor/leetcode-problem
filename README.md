@@ -19,13 +19,13 @@ overwritten on the next sync.
 
 ## 📊 LeetCode Progress
 
-**Total solved: 23**
+**Total solved: 27**
 
-`[##----------------------]` 23/300
+`[##----------------------]` 27/300
 
 | Difficulty | Count |
 |---|---|
-| Easy | 15 |
+| Easy | 19 |
 | Medium | 7 |
 | Hard | 1 |
 
@@ -35,10 +35,10 @@ overwritten on the next sync.
 |---|---|
 | array | 9 |
 | math | 7 |
+| database | 7 |
 | string | 6 |
 | hash-table | 5 |
 | two-pointers | 3 |
-| database | 3 |
 | dynamic-programming | 2 |
 | matrix | 2 |
 | simulation | 2 |
@@ -55,22 +55,22 @@ overwritten on the next sync.
 | Language | Solved |
 |---|---|
 | C++ | 18 |
-| MySQL | 2 |
+| MySQL | 6 |
 | JavaScript | 2 |
 | mysql | 1 |
 
 ### Recently Solved
 
+- [595. Big Countries](solutions/database/0595-big-countries) — Easy — 2026-10-01
+- [620. Not Boring Movies](solutions/database/0620-not-boring-movies) — Easy — 2026-10-01
+- [1148. Article Views I](solutions/database/1148-article-views-i) — Easy — 2026-10-01
+- [1683. Invalid Tweets](solutions/database/1683-invalid-tweets) — Easy — 2026-10-01
 - [584. Find Customer Referee](solutions/database/0584-find-customer-referee) — Easy — 2026-09-30
 - [1757. Recyclable and Low Fat Products](solutions/database/1757-recyclable-and-low-fat-products) — Easy — 2026-09-30
 - [2621. Sleep](solutions/uncategorized/2621-sleep) — Easy — 2026-09-27
 - [121. Best Time to Buy and Sell Stock](solutions/array/0121-best-time-to-buy-and-sell-stock) — Easy — 2026-09-26
 - [2620. Counter](solutions/uncategorized/2620-counter) — Easy — 2026-09-25
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — 2026-08-31
-- [1. Two Sum](solutions/array/0001-two-sum) — Easy — 2026-08-04
-- [26. Remove Duplicates from Sorted Array](solutions/array/0026-remove-duplicates-from-sorted-array) — Easy — 2026-08-04
-- [66. Plus One](solutions/array/0066-plus-one) — Easy — 2026-08-04
-- [268. Missing Number](solutions/array/0268-missing-number) — Easy — 2026-08-04
 
 ### Least-Practiced Patterns
 
@@ -91,6 +91,6 @@ overwritten on the next sync.
 - [3. Longest Substring Without Repeating Characters](solutions/hash-table/0003-longest-substring-without-repeating-characters) — Medium — solved 2025-01-17
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — solved 2026-08-31
 
-_Last updated: 2026-09-30 22:26 UTC_
+_Last updated: 2026-10-01 22:48 UTC_
 
 <!-- DASHBOARD:END -->
