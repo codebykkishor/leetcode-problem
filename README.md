@@ -19,14 +19,14 @@ overwritten on the next sync.
 
 ## 📊 LeetCode Progress
 
-**Total solved: 27**
+**Total solved: 28**
 
-`[##----------------------]` 27/300
+`[##----------------------]` 28/300
 
 | Difficulty | Count |
 |---|---|
 | Easy | 19 |
-| Medium | 7 |
+| Medium | 8 |
 | Hard | 1 |
 
 ### Topics
@@ -34,8 +34,8 @@ overwritten on the next sync.
 | Topic | Solved |
 |---|---|
 | array | 9 |
+| database | 8 |
 | math | 7 |
-| database | 7 |
 | string | 6 |
 | hash-table | 5 |
 | two-pointers | 3 |
@@ -55,12 +55,13 @@ overwritten on the next sync.
 | Language | Solved |
 |---|---|
 | C++ | 18 |
-| MySQL | 6 |
+| MySQL | 7 |
 | JavaScript | 2 |
 | mysql | 1 |
 
 ### Recently Solved
 
+- [178. Rank Scores](solutions/database/0178-rank-scores) — Medium — 2026-10-02
 - [595. Big Countries](solutions/database/0595-big-countries) — Easy — 2026-10-01
 - [620. Not Boring Movies](solutions/database/0620-not-boring-movies) — Easy — 2026-10-01
 - [1148. Article Views I](solutions/database/1148-article-views-i) — Easy — 2026-10-01
@@ -70,7 +71,6 @@ overwritten on the next sync.
 - [2621. Sleep](solutions/uncategorized/2621-sleep) — Easy — 2026-09-27
 - [121. Best Time to Buy and Sell Stock](solutions/array/0121-best-time-to-buy-and-sell-stock) — Easy — 2026-09-26
 - [2620. Counter](solutions/uncategorized/2620-counter) — Easy — 2026-09-25
-- [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — 2026-08-31
 
 ### Least-Practiced Patterns
 
@@ -90,7 +90,8 @@ overwritten on the next sync.
 - [2785. Sort Vowels in a String](solutions/string/2785-sort-vowels-in-a-string) — Medium — solved 2025-01-15
 - [3. Longest Substring Without Repeating Characters](solutions/hash-table/0003-longest-substring-without-repeating-characters) — Medium — solved 2025-01-17
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — solved 2026-08-31
+- [178. Rank Scores](solutions/database/0178-rank-scores) — Medium — solved 2026-10-02
 
-_Last updated: 2026-10-01 22:48 UTC_
+_Last updated: 2026-10-02 22:23 UTC_
 
 <!-- DASHBOARD:END -->
