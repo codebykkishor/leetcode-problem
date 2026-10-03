@@ -19,13 +19,13 @@ overwritten on the next sync.
 
 ## 📊 LeetCode Progress
 
-**Total solved: 28**
+**Total solved: 29**
 
-`[##----------------------]` 28/300
+`[##----------------------]` 29/300
 
 | Difficulty | Count |
 |---|---|
-| Easy | 19 |
+| Easy | 20 |
 | Medium | 8 |
 | Hard | 1 |
 
@@ -34,7 +34,7 @@ overwritten on the next sync.
 | Topic | Solved |
 |---|---|
 | array | 9 |
-| database | 8 |
+| database | 9 |
 | math | 7 |
 | string | 6 |
 | hash-table | 5 |
@@ -55,12 +55,13 @@ overwritten on the next sync.
 | Language | Solved |
 |---|---|
 | C++ | 18 |
-| MySQL | 7 |
+| MySQL | 8 |
 | JavaScript | 2 |
 | mysql | 1 |
 
 ### Recently Solved
 
+- [1251. Average Selling Price](solutions/database/1251-average-selling-price) — Easy — 2026-10-03
 - [178. Rank Scores](solutions/database/0178-rank-scores) — Medium — 2026-10-02
 - [595. Big Countries](solutions/database/0595-big-countries) — Easy — 2026-10-01
 - [620. Not Boring Movies](solutions/database/0620-not-boring-movies) — Easy — 2026-10-01
@@ -70,7 +71,6 @@ overwritten on the next sync.
 - [1757. Recyclable and Low Fat Products](solutions/database/1757-recyclable-and-low-fat-products) — Easy — 2026-09-30
 - [2621. Sleep](solutions/uncategorized/2621-sleep) — Easy — 2026-09-27
 - [121. Best Time to Buy and Sell Stock](solutions/array/0121-best-time-to-buy-and-sell-stock) — Easy — 2026-09-26
-- [2620. Counter](solutions/uncategorized/2620-counter) — Easy — 2026-09-25
 
 ### Least-Practiced Patterns
 
@@ -92,6 +92,6 @@ overwritten on the next sync.
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — solved 2026-08-31
 - [178. Rank Scores](solutions/database/0178-rank-scores) — Medium — solved 2026-10-02
 
-_Last updated: 2026-10-02 22:23 UTC_
+_Last updated: 2026-10-03 21:32 UTC_
 
 <!-- DASHBOARD:END -->
