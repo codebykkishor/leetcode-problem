@@ -19,13 +19,13 @@ overwritten on the next sync.
 
 ## 📊 LeetCode Progress
 
-**Total solved: 31**
+**Total solved: 32**
 
-`[##----------------------]` 31/300
+`[###---------------------]` 32/300
 
 | Difficulty | Count |
 |---|---|
-| Easy | 22 |
+| Easy | 23 |
 | Medium | 8 |
 | Hard | 1 |
 
@@ -34,15 +34,15 @@ overwritten on the next sync.
 | Topic | Solved |
 |---|---|
 | database | 11 |
-| array | 9 |
+| array | 10 |
 | math | 7 |
 | string | 6 |
 | hash-table | 5 |
 | two-pointers | 3 |
+| binary-search | 3 |
 | dynamic-programming | 2 |
 | matrix | 2 |
 | simulation | 2 |
-| binary-search | 2 |
 | bit-manipulation | 2 |
 | sorting | 2 |
 | stack | 1 |
@@ -54,13 +54,14 @@ overwritten on the next sync.
 
 | Language | Solved |
 |---|---|
-| C++ | 18 |
+| C++ | 19 |
 | MySQL | 10 |
 | JavaScript | 2 |
 | mysql | 1 |
 
 ### Recently Solved
 
+- [744. Find Smallest Letter Greater Than Target](solutions/array/0744-find-smallest-letter-greater-than-target) — Easy — 2026-10-06
 - [1633. Percentage of Users Attended a Contest](solutions/database/1633-percentage-of-users-attended-a-contest) — Easy — 2026-10-05
 - [1075. Project Employees I](solutions/database/1075-project-employees-i) — Easy — 2026-10-04
 - [1251. Average Selling Price](solutions/database/1251-average-selling-price) — Easy — 2026-10-03
@@ -70,7 +71,6 @@ overwritten on the next sync.
 - [1148. Article Views I](solutions/database/1148-article-views-i) — Easy — 2026-10-01
 - [1683. Invalid Tweets](solutions/database/1683-invalid-tweets) — Easy — 2026-10-01
 - [584. Find Customer Referee](solutions/database/0584-find-customer-referee) — Easy — 2026-09-30
-- [1757. Recyclable and Low Fat Products](solutions/database/1757-recyclable-and-low-fat-products) — Easy — 2026-09-30
 
 ### Least-Practiced Patterns
 
@@ -92,6 +92,6 @@ overwritten on the next sync.
 - [176. Second Highest Salary](solutions/database/0176-second-highest-salary) — Medium — solved 2026-08-31
 - [178. Rank Scores](solutions/database/0178-rank-scores) — Medium — solved 2026-10-02
 
-_Last updated: 2026-10-06 00:12 UTC_
+_Last updated: 2026-10-06 22:43 UTC_
 
 <!-- DASHBOARD:END -->
